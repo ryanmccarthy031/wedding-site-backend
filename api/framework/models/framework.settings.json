@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "frameworks",
+  "info": {
+    "name": "Framework"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.pages"
+    },
+    "host_names": {
+      "type": "component",
+      "repeatable": true,
+      "component": "people.name"
+    }
+  }
+}

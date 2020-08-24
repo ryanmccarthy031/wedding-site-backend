@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_photo_sets",
+  "info": {
+    "name": "Photo Set",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "Photos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

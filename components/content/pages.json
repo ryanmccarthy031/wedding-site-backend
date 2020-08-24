@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_content_pages",
+  "info": {
+    "name": "Pages",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "maxLength": 200
+    },
+    "is_private": {
+      "type": "boolean",
+      "default": false
+    },
+    "is_included": {
+      "type": "boolean",
+      "default": true
+    },
+    "places": {
+      "collection": "location"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.paragraphs"
+    },
+    "is_guest_management": {
+      "type": "boolean",
+      "default": false
+    },
+    "is_payments": {
+      "type": "boolean",
+      "default": false
+    },
+    "is_photos": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

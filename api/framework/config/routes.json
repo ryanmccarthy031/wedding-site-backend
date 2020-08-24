@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/framework",
+      "handler": "framework.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/framework",
+      "handler": "framework.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/framework",
+      "handler": "framework.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_comments",
+  "info": {
+    "name": "comment",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "guest": {
+      "model": "guests"
+    }
+  }
+}

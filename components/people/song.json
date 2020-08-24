@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_people_songs",
+  "info": {
+    "name": "song",
+    "icon": "music"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "artist": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "carousel_photos",
+  "info": {
+    "name": "Carousel Photos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "photos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

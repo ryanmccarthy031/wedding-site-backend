@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guests",
+  "info": {
+    "name": "Guests"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "is_coming": {
+      "type": "boolean",
+      "default": false
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.address"
+    },
+    "phone_number": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-info.phone-number"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-info.email"
+    },
+    "guests_attending": {
+      "type": "component",
+      "repeatable": true,
+      "component": "people.name"
+    },
+    "photoAccessToken": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "richtext"
+    },
+    "songs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "people.song"
+    }
+  }
+}

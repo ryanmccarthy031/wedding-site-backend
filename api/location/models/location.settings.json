@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "name": "Places"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "date_time": {
+      "type": "datetime"
+    },
+    "place_name": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.address"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.email"
+    },
+    "phone_number": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.phone-number"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    }
+  }
+}

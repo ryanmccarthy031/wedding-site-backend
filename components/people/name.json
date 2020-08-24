@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_people_names",
+  "info": {
+    "name": "Name",
+    "icon": "smile"
+  },
+  "options": {},
+  "attributes": {
+    "person_name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Wedding Site",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.5",
+    "strapi-admin": "3.0.5",
+    "strapi-connector-mongoose": "3.0.5",
+    "strapi-plugin-content-manager": "3.0.5",
+    "strapi-plugin-content-type-builder": "3.0.5",
+    "strapi-plugin-email": "3.0.5",
+    "strapi-plugin-graphql": "3.0.5",
+    "strapi-plugin-upload": "3.0.5",
+    "strapi-plugin-users-permissions": "3.0.5",
+    "strapi-utils": "3.0.5",
+    "stripe": "^8.68.0"
+  },
+  "author": {
+    "name": "Ryan McCarthy"
+  },
+  "strapi": {
+    "uuid": "3c75b933-5fdb-4227-9b23-fc77d84e242e"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

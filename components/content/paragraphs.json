@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_content_paragraphs",
+  "info": {
+    "name": "Paragraphs",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "paragraph": {
+      "type": "richtext"
+    }
+  }
+}
