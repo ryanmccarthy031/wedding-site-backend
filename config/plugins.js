@@ -15,7 +15,7 @@ module.exports = ({ env }) => ({
       providerOptions: {
         username: 'us@leighandryan.com',
         clientId: env('EMAIL_CLIENT_ID'),
-        privateKey: env('EMAIL_PRIVATE_KEY'),
+        privateKey: JSON.parse(env('EMAIL_PRIVATE_KEY')).key,
       },
       settings: {
         defaultFrom: 'us@leighandryan.com',
