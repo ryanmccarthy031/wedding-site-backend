@@ -13,13 +13,13 @@ module.exports = ({ env }) => ({
     email: {
       provider: 'gmail-2lo',
       providerOptions: {
-        username: 'us@leighandryan.com',
+        username: env('SERVICE_ACCOUNT_EMAIL'),
         clientId: env('EMAIL_CLIENT_ID'),
         privateKey: env('EMAIL_PRIVATE_KEY'),
       },
       settings: {
-        defaultFrom: 'us@leighandryan.com',
-        defaultReplyTo: 'us@leighandryan.com',
+        defaultFrom: env('GMAIL_ADDR'),
+        defaultReplyTo: env('GMAIL_ADDR'),
       },
     },
   });
