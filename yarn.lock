@@ -6907,6 +6907,11 @@ nodemailer-shared@1.1.0:
   dependencies:
     nodemailer-fetch "1.6.0"
 
+nodemailer@^4.6.7:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-4.7.0.tgz#4420e06abfffd77d0618f184ea49047db84f4ad8"
+  integrity sha512-IludxDypFpYw4xpzKdMAozBSkzKHmNBvGanUREjJItgJ2NYcK/s8+PggVhj7c2yGFQykKsnnmv1+Aqo0ZfjHmw==
+
 noop-logger@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/noop-logger/-/noop-logger-0.1.1.tgz#94a2b1633c4f1317553007d8966fd0e841b6a4c2"
@@ -7394,6 +7399,11 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
   integrity sha512-ARhBOdzS3e41FbkW/XWrTEtukqqLoK5+Z/4UeDaLuSW+39JPeFgs4gCGqsrJHVZX0fUrx//4OF0K1CUGwlIFow==
+
+pluralize@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
+  integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
 
 popper.js@^1.14.4:
   version "1.16.1"
@@ -9439,6 +9449,14 @@ strapi-plugin-users-permissions@3.1.1:
     strapi-utils "3.1.1"
     uuid "^3.1.0"
 
+strapi-provider-email-gmail-oauth2@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/strapi-provider-email-gmail-oauth2/-/strapi-provider-email-gmail-oauth2-0.1.7.tgz#58b7d744ed819814ecf65baeadf56b5ce4b95b13"
+  integrity sha512-gnsI7Omx3HDGZUv14qpLdeOTlhEeOip45zydg9aYdci41xT4UgYctPVEncvg26rvIKnv4ZVu3cGU4lHsmHQg6w==
+  dependencies:
+    nodemailer "^4.6.7"
+    strapi-utils "^3.1.4"
+
 strapi-provider-email-sendmail@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.1.1.tgz#8d788a6bb66a2c755e3c9f7847f3cfa3b4f5ab77"
@@ -9471,6 +9489,18 @@ strapi-utils@3.1.1:
     pino "^4.7.1"
     pluralize "^7.0.0"
     shelljs "^0.8.3"
+    yup "0.28.1"
+
+strapi-utils@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.1.4.tgz#77a5d03ef9de8da5653f3e9275d24e8a062a6266"
+  integrity sha512-BcRW6xcwW0glisgJ3VR+XkakV9Bza5JLY9+ndgo/yjmCthjLobUO/Dc/9T35eCkyReXYweCquW/HoPkOMbdm9g==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.19"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
     yup "0.28.1"
 
 strapi@3.1.1:
