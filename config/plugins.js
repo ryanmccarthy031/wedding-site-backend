@@ -15,7 +15,9 @@ module.exports = ({ env }) => ({
       providerOptions: {
         username: env('SERVICE_ACCOUNT_EMAIL'),
         clientId: env('EMAIL_CLIENT_ID'),
-        privateKey: env('EMAIL_PRIVATE_KEY'),
+        clientSecret: env('EMAIL_PRIVATE_KEY'),
+        refreshToken: env('EMAIL_REFRESH_TOKEN'),
+        accessToken: env('EMAIL_ACCESS_TOKEN'),
       },
       settings: {
         defaultFrom: env('GMAIL_ADDR'),
