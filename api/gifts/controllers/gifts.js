@@ -33,12 +33,12 @@ module.exports = {
         strapi.plugins['email'].services.email.send({
           to: email,
           from: 'us@leighandryan.com',
-          replyTo: 'no-reply@leighandryan.com',
+          replyTo: 'us@leighandryan.com',
           subject: 'Thank you!',
           text: `Dear ${name.split(' ')[0]},
 You'll get a proper thank you card eventually, but since we also wanted to confirm that we received your gift, this seemed like a good opportunity to thank you less formally.
-            Love,
-            Leigh & Ryan
+Love,
+Leigh & Ryan
           `,
         });
 
