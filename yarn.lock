@@ -6907,10 +6907,10 @@ nodemailer-shared@1.1.0:
   dependencies:
     nodemailer-fetch "1.6.0"
 
-nodemailer@^6.4.2:
-  version "6.4.11"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.4.11.tgz#1f00b4ffd106403f17c03f3d43d5945b2677046c"
-  integrity sha512-BVZBDi+aJV4O38rxsUh164Dk1NCqgh6Cm0rQSb9SK/DHGll/DrCMnycVDD7msJgZCnmVa8ASo8EZzR7jsgTukQ==
+nodemailer@^4.6.7:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-4.7.0.tgz#4420e06abfffd77d0618f184ea49047db84f4ad8"
+  integrity sha512-IludxDypFpYw4xpzKdMAozBSkzKHmNBvGanUREjJItgJ2NYcK/s8+PggVhj7c2yGFQykKsnnmv1+Aqo0ZfjHmw==
 
 noop-logger@^0.1.1:
   version "0.1.1"
@@ -9449,13 +9449,13 @@ strapi-plugin-users-permissions@3.1.1:
     strapi-utils "3.1.1"
     uuid "^3.1.0"
 
-strapi-provider-email-gmail-2lo@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/strapi-provider-email-gmail-2lo/-/strapi-provider-email-gmail-2lo-3.0.6.tgz#08633bc6ada47db26c2ae4233b4ebd6dc67c3d0a"
-  integrity sha512-st2PvxHwMSYlj+jrTtKyez3l8J1hldFtey7N0seKKJP2CREX8saf4GDaprrSnxbDhpv8qbxReUE+FGFpk1dOgw==
+strapi-provider-email-gmail-oauth2@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/strapi-provider-email-gmail-oauth2/-/strapi-provider-email-gmail-oauth2-0.1.7.tgz#58b7d744ed819814ecf65baeadf56b5ce4b95b13"
+  integrity sha512-gnsI7Omx3HDGZUv14qpLdeOTlhEeOip45zydg9aYdci41xT4UgYctPVEncvg26rvIKnv4ZVu3cGU4lHsmHQg6w==
   dependencies:
-    nodemailer "^6.4.2"
-    strapi-utils "^3.0.5"
+    nodemailer "^4.6.7"
+    strapi-utils "^3.1.4"
 
 strapi-provider-email-sendmail@3.1.1:
   version "3.1.1"
@@ -9491,7 +9491,7 @@ strapi-utils@3.1.1:
     shelljs "^0.8.3"
     yup "0.28.1"
 
-strapi-utils@^3.0.5:
+strapi-utils@^3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.1.4.tgz#77a5d03ef9de8da5653f3e9275d24e8a062a6266"
   integrity sha512-BcRW6xcwW0glisgJ3VR+XkakV9Bza5JLY9+ndgo/yjmCthjLobUO/Dc/9T35eCkyReXYweCquW/HoPkOMbdm9g==
