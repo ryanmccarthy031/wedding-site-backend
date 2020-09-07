@@ -10,4 +10,16 @@ module.exports = ({ env }) => ({
         },
       },
     },
+    email: {
+      provider: 'gmail-2lo',
+      providerOptions: {
+        username: 'wedding-site-email@natural-oath-288814.iam.gserviceaccount.com',
+        clientId: env('EMAIL_CLIENT_ID'),
+        privateKey: env('EMAIL_PRIVATE_KEY'),
+      },
+      settings: {
+        defaultFrom: 'us@leighandryan.com',
+        defaultReplyTo: 'us@leighandryan.com',
+      },
+    },
   });
